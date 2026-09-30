@@ -23,7 +23,7 @@ The dataset aggregates statistics from public NBA sources into a structured CSV 
 │   └── Exported visualization assets
 │
 └── README.md
-
+```
 ## Methodology
 
 The analysis isolates the following key metrics to track the evolution of NBA offenses:
