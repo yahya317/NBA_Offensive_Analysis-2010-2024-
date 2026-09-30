@@ -10,14 +10,19 @@ The dataset aggregates statistics from public NBA sources into a structured CSV 
 
 ## Repository Structure
 
-- **`data/`**: Stores the core statistical dataset.
-- **`notebooks/`**:
-  - `01_Establish_Data.ipynb`: Handles data acquisition, documents the dataset schema, and subsets the data to focus strictly on features relevant to the offensive evolution theme.
-  - `02_Exploring_Data.ipynb`: Conducts data inspection, addresses null values (e.g., verifying `AVAILABLE_FLAG` does not impact scoring analysis), reformats season dates, and generates exploratory visualizations.
-  - `03_Final_Product.ipynb`: Contains the finalized visualizations and synthesized findings detailing the rise in NBA offense.
-- **`images/`**: Contains the exported visualization assets generated during analysis, including scatterplots, KDE plots, and line charts.
-
-> **Note:** The notebooks may appear under different filenames in the original project files, such as `Final_Project_NB_1 (1).ipynb`, `Final_Project_NB_2 (1).ipynb`, and `Final_Project_NB_3 (1).ipynb`.
+```text
+├── data/
+│   └── regular_season_totals_2010_2024.csv
+│
+├── notebooks/
+│   ├── 01_Establish_Data.ipynb
+│   ├── 02_Exploring_Data.ipynb
+│   └── 03_Final_Product.ipynb
+│
+├── images/
+│   └── Exported visualization assets
+│
+└── README.md
 
 ## Methodology
 
